@@ -1,0 +1,124 @@
+*p{
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+}
+.global-section {
+    margin-top: 50px;
+    min-height: 50vh;
+}
+
+.global-title {
+    .title {
+        font-size: 23px;
+    }
+}
+
+.global-description {
+    margin-top: 30px;
+
+    p {
+        margin: 0 0 10px 0;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+}
+.h6{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 700;
+    color:rgb(1 144 240) ;
+}
+.table-section{
+           
+    .m-t-20{
+        margin-top: 20px;
+    }
+    .table-bordered{
+        border: 1px solid rgb(221 221 221);
+    }
+    .table{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    table {
+        tbody{
+            tr{
+                td{
+                    padding: 10px;
+                    vertical-align: middle;
+                    color: #000;
+                }
+            }
+                .b-green{
+                    white-space: nowrap;
+                    padding: 8px 8px 8px 8px;
+                    width: 173px;
+                    height: 57px;
+                    background-color: #7ECD2C;
+                    color: #fff;
+                  
+                }
+            }
+        }
+    
+}
+.global-description2{
+    margin-top: 10px;
+    color: #000;
+    p {
+        margin: 0 0 10px 0;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .h6-h{
+        color: #000!important;
+    }
+    h6{
+       font-size: 16px; 
+       margin-top: 30px;
+       font-weight: 700;
+       color: #000;
+    }
+}
+.h6-tag{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 700;
+    color:rgb(1 144 240) ;
+}
+.listing-item{
+    margin-top: 0;
+    margin-bottom: 50px;
+    ul{
+     
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        li{
+            color: #000;
+            font-size: 13px;
+            line-height: 18px;
+            display: list-item;
+            text-align: -webkit-match-parent;
+        }
+    }
+}

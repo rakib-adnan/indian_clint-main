@@ -1,0 +1,194 @@
+.top_hader{
+    width: 100%;
+    padding: 15px 0;
+    .top_menu_body{
+        display: grid;
+        grid-template-columns: 2fr 3fr 1fr;
+        grid-gap: 30px;
+        align-items: center;
+
+        .logo{
+            a{
+                img{
+                    width: 200px;
+                }
+            }
+        }
+        .top_slider{
+            background-color: rgba(228, 27, 27, 0.103);
+            width: 100%;
+            height: 100px;
+        }
+        .search_and_language{
+            text-align: right;
+            button{
+                background-color: transparent;
+                border: none;
+                margin-right: 10px;
+                font-size: 20px;
+                color: #000000;
+            }
+            select{
+                width: 160px;
+                padding: 10px;
+                background-color: transparent;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+.main_header{
+    background-color: #d33c93;
+    .main_menu_contennt{
+        display: flex;
+        align-items: center;
+        position: relative;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            max-width: 100%;
+            width: 80%;
+            
+            li{
+                position: relative;
+                a{
+                    padding: 15px 10px;
+                    color: white;
+                    font-family: styleFont;
+                    border-left: 1px solid #924b75;
+                    font-size: 14px;
+                    transition: .5s;
+                    text-transform: uppercase;
+                    &:hover{
+                        background-color: #5cba52;
+                    }   
+                    &.active{
+                        background-color: #5cba52;
+                    }   
+                }
+
+                // Sub Menu Css Start
+                ul{
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    max-width: 250px;
+                    width: 250px;
+                    display: none;
+                    background-color: #fff;
+                    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+                    z-index: 999;
+                    li{
+                        display: block;
+                        a{
+                            border-left: none;
+                            color: black;
+                            width: 100%;
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+                            padding: 8px 15px;
+                            font-family: openSans300;
+                            text-transform: capitalize;
+                            &:hover{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main_menu_social_icon_box{
+            max-width: 20%;
+            width: 20%;
+            background-color: #5cba52;
+            height: 60px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            &::before{
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: -11px;
+                background: url(https://wellonapharma.com/images/social-arrow.png);
+                background-repeat: repeat;
+                width: 5%;
+                background-repeat: no-repeat;
+                height: 16%;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: -11px;
+                background: url(https://wellonapharma.com/images/social-arrow.png);
+                background-repeat: repeat;
+                width: 5%;
+                height: 16%;
+                background-repeat: no-repeat;
+                transform: rotateY(-180deg);
+            }
+            ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 10px;
+                max-width: 100%;
+                height: 100%;
+                li{
+                    a{
+                        border: none;
+                        height: 30px;
+                        width: 30px;
+                        background-color: #ffffff;
+                        border-radius: 50%;
+                        margin: 0 5px;
+                        color: #5cba52;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        svg{
+                            font-size: 20px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.breadcum{
+    background-image: url('https://wellonapharma.com/images/breadcrumbs-bg.jpg');
+    padding: 10px 0;
+    .breadcum_content{
+        ul{
+            display: flex;
+            align-items: center;
+            li{
+                margin-right: 10px;
+                a{
+                    display: flex;
+                    align-items: center;
+                    font-size: 14px;
+                    cursor: pointer !important;
+                    color: black;
+                    transition: .2s;
+                    &:hover{
+                        color: #0190f0;
+                        text-decoration: underline !important;
+                    }
+                    &:last-child{
+                        cursor: inherit;
+                    }
+                    
+
+                    svg{
+                        margin-right: 3px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+@font-face {
+    font-family: styleFont;
+    src: url('../Fonts/Fonarto.ttf');
+}
+@font-face {
+    font-family: 'openSansBold';
+    src: url('../Fonts/OpenSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'openSans300';
+    src: url('../Fonts/OpenSans-Medium.ttf');
+}
+@font-face {
+    font-family: 'openSans200';
+    src: url('../Fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'openSans100';
+    src: url('../Fonts/OpenSans-Light.ttf');
+}
+
+
+h1,
+h2{
+    font-family: styleFont;
+}
+
+h3,
+h4,
+h5,
+h6,
+label{
+    font-family: openSansBold;
+}
+
+p,
+span,
+a,
+div{
+    font-family: openSans200;
+    color: #575454;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+span{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
