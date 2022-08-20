@@ -1,11 +1,44 @@
-*p{
+*p {
     font-size: 13px;
     line-height: 18px;
     text-align: justify;
 }
+
 .global-section {
-    margin-top: 50px;
+
     min-height: 50vh;
+
+}
+
+.about-banner-wrap {
+    margin-bottom: 40px;
+}
+
+.global-content {
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .section-sub-title {
+        height: 34px;
+        color: #03646b !important;
+        font-size: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        line-height: 1.43;
+        margin-top: -24px;
+    }
+
+    .heading {
+        height: 74px;
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+
+    }
+
 }
 
 .global-title {
@@ -18,94 +51,114 @@
     margin-top: 30px;
 
     p {
-        margin: 0 0 10px 0;
-        font-size: 14px;
-        line-height: 20px;
+        margin: 0px 0 6px 0;
+        font-size: 18px;
+        line-height: 33px;
         color: #000;
         display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
+        margin-block-start: 2em;
+        margin-block-end: 2em;
+        margin-inline-start: 24px;
         margin-inline-end: 0px;
     }
 
 }
-.h6{
+
+.h6 {
+    margin-left: 23px;
     font-size: 16px;
     margin-top: 20px;
     font-weight: 700;
-    color:rgb(1 144 240) ;
+    color: rgb(1 144 240);
 }
-.table-section{
-           
-    .m-t-20{
+
+.table-section {
+    margin-left: 22px;
+
+    .m-t-20 {
         margin-top: 20px;
     }
-    .table-bordered{
+
+    .table-bordered {
         border: 1px solid rgb(221 221 221);
     }
-    .table{
+
+    .table {
         width: 100%;
         max-width: 100%;
         margin-bottom: 20px;
     }
+
     table {
-        tbody{
-            tr{
-                td{
+        tbody {
+            tr {
+                td {
                     padding: 10px;
                     vertical-align: middle;
                     color: #000;
                 }
             }
-                .b-green{
-                    white-space: nowrap;
-                    padding: 8px 8px 8px 8px;
-                    width: 173px;
-                    height: 57px;
-                    background-color: #7ECD2C;
-                    color: #fff;
-                  
-                }
+
+            .b-green {
+                white-space: nowrap;
+                padding: 8px 8px 8px 8px;
+                width: 173px;
+                height: 57px;
+                background-color: #D33C93;
+                color: #fff;
+
             }
         }
-    
+    }
+
 }
-.global-description2{
+
+.global-description2 {
     margin-top: 10px;
     color: #000;
+
     p {
-        margin: 0 0 10px 0;
-        font-size: 14px;
-        line-height: 20px;
+        margin: 0px 0 6px 0;
+        font-size: 18px;
+        line-height: 33px;
         color: #000;
         display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
+        margin-block-start: 2em;
+        margin-block-end: 2em;
+        margin-inline-start: 24px;
         margin-inline-end: 0px;
     }
-    .h6-h{
-        color: #000!important;
+
+    .h6-h {
+        color: #000 !important;
     }
-    h6{
-       font-size: 16px; 
-       margin-top: 30px;
-       font-weight: 700;
-       color: #000;
+
+    h6 {
+        font-size: 19px;
+        margin-top: 1px;
+        font-weight: 700;
+        color: rgb(0 0 0);
+        margin-block-start: -1em;
+        margin-block-end: 0em;
+        margin-inline-start: 24px;
+        margin-inline-end: 0px;
     }
 }
-.h6-tag{
+
+.h6-tag {
     font-size: 16px;
+    margin-left: 23px;
     margin-top: 20px;
     font-weight: 700;
-    color:rgb(1 144 240) ;
+    color: rgb(1 144 240);
 }
-.listing-item{
+
+.listing-item {
     margin-top: 0;
     margin-bottom: 50px;
-    ul{
-     
+
+    ul {
+
         display: block;
         list-style-type: disc;
         margin-block-start: 1em;
@@ -113,7 +166,8 @@
         margin-inline-start: 0px;
         margin-inline-end: 0px;
         padding-inline-start: 40px;
-        li{
+
+        li {
             color: #000;
             font-size: 13px;
             line-height: 18px;

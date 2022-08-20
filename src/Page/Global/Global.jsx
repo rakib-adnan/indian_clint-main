@@ -1,26 +1,33 @@
 import React from 'react'
-import Titel from '../../Components/Titel/Titel';
+import Banner from '../../Components/Banner/Banner';
+import ReusableBanner from '../../Components/ReusableBanner/ReusableBanner';
+import Title from '../../Components/Titel/Titel';
 import './Global.scss'
 
 const Global = () => {
   return (
     <>
     <div className="global-section">
-        <div className="container">
-              <div className="global-title">
-                <Titel first="GLOBAL" secound=" PRESENCE"/>
-             </div>
-                <div className="global-description">
-                    <p>
-                    Wellona Pharma currently exports to over 86 countries and 5 continents globally which include North America, CIS, Latin America, Africa and South-East Asia. With over 380 International Product Registrations (still expanding), we are emerging as a major potential Indian Pharmaceuticals manufacturer.
-                    </p>
-                    <p>
-                    Streamlining the export vision at Wellona Pharma, a dedicated Export regulatory department team has been set up for complying with international audits and providing complete export documentation including COPP and dossier preparations as per CTD format. Operating in total compliance with c-GMP norms, Wellona pharma’s manufacturing unit has been granted certifications by many regulatory Agencies.
-                    </p>
-                    <p>We endeavor to become the world class pharmaceutical manufacturer for India & neighboring countries and to assist in the development of quality products by providing superior performance with high Quality products in right budget. Our formulation development team and regulatory department are focused on bringing latest generics to our markets thereby guaranteeing a constant flow of the latest products to our customers.
-                    </p>
+        <div className="about-banner-wrap">
+            <Banner/>
+        </div>
+            <div className="container">
+                <div className="global-content">
+                    <Title first="GLOBAL" secound="PRESENCE"/>
+                    <ReusableBanner  bannerText1="Asia, Africa, North America, South America,
+                        Antarctica, " bannerText2="Europe, and Australia." />
                 </div>
-                <h6 class="h6" >Our Branded and Generic medicines enjoy steady demand in following countries:</h6>
+                    <div className="global-description">
+                           <p>
+                            Wellona Pharma currently exports to over 86 countries and 5 continents globally which include North America, CIS, Latin America, Africa and South-East Asia. With over 380 International Product Registrations (still expanding), we are emerging as a major potential Indian Pharmaceuticals manufacturer.
+                            </p>
+                            <p>
+                            Streamlining the export vision at Wellona Pharma, a dedicated Export regulatory department team has been set up for complying with international audits and providing complete export documentation including COPP and dossier preparations as per CTD format. Operating in total compliance with c-GMP norms, Wellona pharma’s manufacturing unit has been granted certifications by many regulatory Agencies.
+                            </p>
+                            <p>We endeavor to become the world class pharmaceutical manufacturer for India & neighboring countries and to assist in the development of quality products by providing superior performance with high Quality products in right budget. Our formulation development team and regulatory department are focused on bringing latest generics to our markets thereby guaranteeing a constant flow of the latest products to our customers.
+                            </p>
+                   </div>
+                       <h6 class="h6" >Our Branded and Generic medicines enjoy steady demand in following countries:</h6>
 
                 <div className="table-section">
                     <table class="table table-bordered m-t-20" >

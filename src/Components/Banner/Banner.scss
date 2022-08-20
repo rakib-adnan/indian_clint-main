@@ -1,0 +1,40 @@
+.banner-main-wrap{
+    .banner-wrap{
+        
+            background-image: url(./image/global-presence.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-top: 185px;
+            padding-bottom: 190px;
+        .banner-content{            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; ;
+            .banner-title{
+                width: 70%;
+                display: flex;
+                justify-content: center;
+               h5{
+                font-size: 24px;
+                font-weight: 700;
+                color: #fff;
+                margin-bottom: 10px;
+               }
+            }
+            .banner-description{
+                display: flex;
+                width: 52%;
+                text-align: center;
+                font-size: 24px;
+                margin-top: 10px;
+               h1{
+                     font-size: 28px;
+                     color: #fff;
+                     margin-bottom: 20px;
+               }
+            }
+        }
+    }
+}
